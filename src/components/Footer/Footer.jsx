@@ -9,7 +9,7 @@ const Footer = () => {
                     <div className="mb-6 md:mb-0">
                         <a href="#" className="flex items-center">
                             <img src={Logo} className="h-20 mr-4"/>
-                            <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Alejandra Zavala</span>
+                            <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Alejandra Hidalgo Zavala</span>
                         </a>
                     </div>
                     <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
