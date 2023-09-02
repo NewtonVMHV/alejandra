@@ -16,7 +16,7 @@ const Hero = () =>{
                             Diputada
                         </p>
                         <h2 className="mb-5 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
-                            Alejandra
+                            Alejandra{' '}
                             <br className="hidden md:block" />
                             Hidalgo{' '}
                             <span className="inline-block text-deep-purple-accent-400">
