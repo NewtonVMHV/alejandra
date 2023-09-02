@@ -2,7 +2,8 @@ import React from "react";
 import casa from "../resources/casa.jpg"
 const Contacto = () => {
     return (
-        <section className="mb-32" id="Contacto">
+        <section id="Contacto">
+        <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
             <div className="mx-auto max-w-2xl lg:text-center">
                 <h2 className="text-base font-semibold leading-7 text-indigo-600">Presentamos</h2>
                 <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
