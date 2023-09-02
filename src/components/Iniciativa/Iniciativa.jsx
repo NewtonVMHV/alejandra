@@ -52,13 +52,13 @@ const Iniciativa = () => {
                                 <p className="mt-6 text-lg leading-8 text-gray-600">
                                     Te compartimos algunas de las iniciativas presentadas más importantes:
                                 </p>
-                                <dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
+                                <dl className="mt-10 max-w-xl text-base leading-7 text-gray-600 lg:max-w-none">
                                     {posts.map((post) => (
                                         <div key={post.id} className="relative pl-9">
                                             <post.icon/>
                                             <dt className="inline font-semibold text-gray-900">
                                                 {post.title}:
-                                            </dt>
+                                            </dt>{' '}
                                             <dd className="inline">{post.description}</dd>
                                         </div>
                                     ))}
