@@ -58,7 +58,7 @@ const Iniciativa = () => {
                                             <post.icon/>
                                             <dt className="inline font-semibold text-gray-900">
                                                 {post.title}:
-                                            </dt>{' '}
+                                            </dt>
                                             <dd className="inline">{post.description}</dd>
                                         </div>
                                     ))}

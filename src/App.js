@@ -16,7 +16,6 @@ function App() {
       <main className="bg-white">
           <Hero/>
           <Iniciativa/>
-          <Team/>
           <Feature/>
           <Contacto/>
           <ScrollToTop smooth top="20"/>
