@@ -55,9 +55,8 @@ const Iniciativa = () => {
                                 <dl className="mt-10 max-w-xl text-base leading-7 text-gray-600 lg:max-w-none">
                                     {posts.map((post) => (
                                         <div key={post.id} className="relative pl-9">
-                                            <post.icon/>
                                             <dt className="inline font-semibold text-gray-900">
-                                                {post.title}:
+                                                *{post.title}:
                                             </dt>{' '}
                                             <dd className="inline">{post.description}</dd>
                                         </div>
@@ -65,7 +64,7 @@ const Iniciativa = () => {
                                 </dl>
                             </div>
                         </div>
-                        <img src={Profile} className="rounded-xl"/>
+                        <img src={Profile} className="rounded-xl" width={400} height={700}/>
                     </div>
                 </div>
             </div>
